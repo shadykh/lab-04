@@ -1,0 +1,166 @@
+header, .aBox {
+    height: 75px;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+.ibox{
+    height: 80px;
+    width: 100%;
+}
+.big-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.bBox {
+    height: 150px;
+    width: 100%;
+}
+
+.cBox, .dBox {
+    height: 125px;
+    width: 100%;
+} 
+
+.eAndFBox, .gAndHBox {
+    height: 250px;
+    width: 100%;
+    display: flex;
+}
+
+.eBox, .gBox {
+    /* float: left; */
+    height: 250px;
+    width: 50%;
+}
+
+.fBox, .hBox {
+    /* float: right; */
+    height: 250px;
+    width: 50%;
+}
+
+
+@media (min-width: 768px)  and (max-width: 960px)  {
+
+    header, .aBox {
+        height: 100px;
+        width: 100%;
+    }
+    
+    .ibox{
+        height: 150px;
+        width: 100%;
+    }
+    .big-box {
+        display: flex;
+        flex-wrap: wrap;
+        width: 79%;
+    }
+    
+    .bBox {
+        float: left;
+        height: 600px;
+        width: 21%;
+    }
+    
+    .cBox {
+        float: left;
+        height: 200px;
+        width: 50%;
+    } 
+    
+    .dBox {
+        float: right;
+        height: 200px;
+        width: 50%;
+    } 
+
+    .gAndHBox {
+        width: 380px;
+        float: right;
+        width: 50%;
+    }
+    .eAndFBox {
+        width: 380px;
+        float: right;
+        width:50%;
+    }
+
+    .eBox, .gBox {
+        height: 250px;
+        width: 50%;
+    }
+    
+    .fBox, .hBox {
+        height: 250px;
+        width: 50%;
+    }
+  }
+  
+
+  @media (min-width: 960px) {
+
+
+   
+    header, .aBox {
+        height: 100px;
+        width: 100%;
+    }
+    
+    .ibox{
+        height: 150px;
+        width: 100%;
+    }
+    .big-box {
+        display: flex;
+        flex-wrap: wrap;
+        width: 79%;
+    }
+    
+    .bBox {
+        float: left;
+        height: 600px;
+        width: 21%;
+    }
+    
+    .cBox {
+        float: left;
+        height: 200px;
+        width: 50%;
+    } 
+    
+    .dBox {
+        float: right;
+        height: 200px;
+        width: 50%;
+    } 
+    .gAndHBox {
+        width: 380px;
+        float: right;
+        width: 50%;
+    }
+    .eAndFBox {
+        width: 380px;
+        float: right;
+        width:50%;
+    }
+
+    .eBox, .gBox {
+        height: 250px;
+        width: 50%;
+    }
+    
+    .fBox, .hBox {
+        height: 250px;
+        width: 50%;
+    }
+
+  }
