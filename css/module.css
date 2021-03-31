@@ -1,0 +1,112 @@
+header p {
+    text-align: center;
+}
+
+.bBox p  {
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+
+.cBox p {
+    text-align: center;
+    position: relative;
+    top: 15%;
+}
+
+
+.dBox p {
+    text-align: center;
+    position: relative;
+    top: 15%;
+}
+
+.eBox p{
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
+.fBox p{
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
+.gBox p{
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
+.hBox p {
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
+.ibox p {
+    text-align: center;
+}
+
+* h6 {
+    padding: 10px 10px;
+}
+
+
+@media (min-width: 768px) and (max-width: 960px)  {
+
+    
+    .cBox p {
+        text-align: center;
+        position: relative;
+        top: 30%;
+    }
+
+    .dBox p {
+        text-align: center;
+        position: relative;
+        top: 30%;
+    }
+
+    .bBox p  {
+        text-align: center;
+        position: relative;
+        top: 46%;
+    }
+
+    footer p {
+        text-align: center;
+        position: relative;
+        top: 22%;
+    }
+    }
+
+    
+@media (min-width: 960px)  {
+
+    
+    .cBox p {
+        text-align: center;
+        position: relative;
+        top: 30%;
+    }
+
+    .dBox p {
+        text-align: center;
+        position: relative;
+        top: 30%;
+    }
+
+    .bBox p  {
+        text-align: center;
+        position: relative;
+        top: 46%;
+    }
+
+    footer p {
+        text-align: center;
+        position: relative;
+        top: 22%;
+    }
+    }
